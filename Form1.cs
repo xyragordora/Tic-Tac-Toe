@@ -125,5 +125,78 @@ namespace tic_tac_toe
                 button9.Text = "X";
             }
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            /*  if (button1.Text == "O" && button2.Text == "O" && button3.Text == "O")
+
+              {
+                  MessageBox.Show("You Won");
+              }
+              else if (button4.Text == "O" && button5.Text == "O" && button6.Text == "O")
+              {
+                  MessageBox.Show("You Won");
+              }
+              else if (button7.Text == "O" && button8.Text == "O" && button9.Text == "O")
+              {
+                  MessageBox.Show("You Won");
+              }
+              else if (button1.Text == "O" && button4.Text == "O" && button7.Text == "O")
+              {
+                  MessageBox.Show("You Won");
+              }
+              else if (button2.Text == "O" && button5.Text == "O" && button8.Text == "O")
+              {
+                  MessageBox.Show("You Won");
+              }
+              else if (button3.Text == "O" && button6.Text == "O" && button9.Text == "O")
+              {
+                  MessageBox.Show("You Won");
+              }
+              else if (button1.Text == "O" && button5.Text == "O" && button9.Text == "O")
+              {
+                  MessageBox.Show("You Won");
+              }
+              else if (button3.Text == "O" && button5.Text == "O" && button7.Text == "O")
+              {
+                  MessageBox.Show("You Won");
+              } */
+            if (button1.Text == "X" && button2.Text == "X" && button3.Text == "X")
+
+            {
+                MessageBox.Show("You Won");
+            }
+            else if (button4.Text == "X" && button5.Text == "X" && button6.Text == "X")
+            {
+                MessageBox.Show("You Won");
+            }
+            else if (button7.Text == "X" && button8.Text == "X" && button9.Text == "X")
+            {
+                MessageBox.Show("You Won");
+            }
+            else if (button1.Text == "X" && button4.Text == "X" && button7.Text == "X")
+            {
+                MessageBox.Show("You Won");
+            }
+            else if (button2.Text == "X" && button5.Text == "X" && button8.Text == "X")
+            {
+                MessageBox.Show("You Won");
+            }
+            else if (button3.Text == "X" && button6.Text == "X" && button9.Text == "X")
+            {
+                MessageBox.Show("You Won");
+            }
+            else if (button1.Text == "X" && button5.Text == "X" && button9.Text == "X")
+            {
+                MessageBox.Show("You Won");
+            }
+            else if (button3.Text == "X" && button5.Text == "X" && button7.Text == "X")
+            {
+                MessageBox.Show("You Won");
+            }
+        }
     }
 }
+
+
+
