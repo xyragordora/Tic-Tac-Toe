@@ -194,6 +194,22 @@ namespace tic_tac_toe
             {
                 MessageBox.Show("You Won");
             }
+            else
+            {
+                MessageBox.Show("Game Over");
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("The game is played on a grid that's 3 squares by 3 squares.\n" +
+                "You are X, your friend (or the computer in this case) is O. Players take turns putting their marks in empty squares.\n" +
+"The first player to get 3 of her marks in a row(up, down, across, or diagonally) is the winner.");
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
